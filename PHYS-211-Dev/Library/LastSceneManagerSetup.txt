@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/EnergyHueDemo.unity
+- path: Assets/CartLab.unity
   isLoaded: 1
   isActive: 1

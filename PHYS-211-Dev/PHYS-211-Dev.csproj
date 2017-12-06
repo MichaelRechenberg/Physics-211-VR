@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0p4</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -92,10 +90,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Measures.cs" />
+    <Compile Include="Assets\AddHeightVelocityPointToGraph.cs" />
+    <Compile Include="Assets\CartLabController.cs" />
     <Compile Include="Assets\EnergyHue.cs" />
     <Compile Include="Assets\ExperimentControl.cs" />
-    <Compile Include="Assets\MeasureCollection.cs" />
+    <Compile Include="Assets\Graph\GraphController.cs" />
+    <Compile Include="Assets\Graph\GraphDemoScript.cs" />
+    <Compile Include="Assets\Graph\MeasureCollection.cs" />
+    <Compile Include="Assets\Graph\Measures.cs" />
     <Compile Include="Assets\StopWhenTriggered.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
